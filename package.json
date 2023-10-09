@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-ops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Math operator iterators.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "@stdlib/math-iter-ops-divide": "^0.1.0",
     "@stdlib/math-iter-ops-mod": "^0.1.0",
     "@stdlib/math-iter-ops-multiply": "^0.1.0",
-    "@stdlib/math-iter-ops-subtract": "^0.1.0",
+    "@stdlib/math-iter-ops-subtract": "^0.1.1",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
@@ -56,7 +56,7 @@
     "@stdlib/random-iter-randu": "^0.1.0",
     "@stdlib/simulate-iter-sine-wave": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/symbol-iterator": "^0.1.0",
+    "@stdlib/symbol-iterator": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-keys": "^0.1.0",
     "proxyquire": "^2.0.0",
