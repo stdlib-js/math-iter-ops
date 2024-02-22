@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterAdd, iterDivide, iterMod, iterMultiply, iterSubtract } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
+import { iterAdd, iterDivide, iterMod, iterMultiply, iterSubtract } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.1-esm/index.mjs';
 ```
 
 #### ns
@@ -95,7 +95,7 @@ The namespace contains the following functions for creating iterator protocol-co
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.1-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
