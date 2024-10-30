@@ -4,9 +4,78 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-30)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="math-iter-ops-unreleased">
+
+#### [@stdlib/math/iter/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/ops)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1575](https://github.com/stdlib-js/stdlib/issues/1575)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1575](https://github.com/stdlib-js/stdlib/issues/1575)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Dominic Lim
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`43ac1e7`](https://github.com/stdlib-js/stdlib/commit/43ac1e77bd764f110c19a3eb08421d0a4af9fc61) - **docs:** improve `math/iter/ops` examples [(#2008)](https://github.com/stdlib-js/stdlib/pull/2008) _(by Dominic Lim, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
