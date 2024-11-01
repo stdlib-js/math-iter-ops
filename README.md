@@ -35,20 +35,32 @@ limitations under the License.
 
 > Math operator iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-ops
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { iterAdd, iterDivide, iterMod, iterMultiply, iterSubtract } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
+var ns = require( '@stdlib/math-iter-ops' );
 ```
 
 #### ns
@@ -86,14 +98,9 @@ The namespace contains the following functions for creating iterator protocol-co
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@esm/index.mjs';
+```javascript
+var array2iterator = require( '@stdlib/array-to-iterator' );
+var ns = require( '@stdlib/math-iter-ops' );
 
 // Demonstrate operations with two iterators:
 var arr1 = [ 2.0, 3.0 ];
@@ -135,10 +142,6 @@ console.log( itWithConstant.next().value );
 // => 4.0
 console.log( itWithConstant.next().value );
 // => 5.0
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -162,7 +165,7 @@ console.log( itWithConstant.next().value );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -227,15 +230,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/iter/ops/add]: https://github.com/stdlib-js/math-iter-ops-add/tree/esm
+[@stdlib/math/iter/ops/add]: https://github.com/stdlib-js/math-iter-ops-add
 
-[@stdlib/math/iter/ops/divide]: https://github.com/stdlib-js/math-iter-ops-divide/tree/esm
+[@stdlib/math/iter/ops/divide]: https://github.com/stdlib-js/math-iter-ops-divide
 
-[@stdlib/math/iter/ops/mod]: https://github.com/stdlib-js/math-iter-ops-mod/tree/esm
+[@stdlib/math/iter/ops/mod]: https://github.com/stdlib-js/math-iter-ops-mod
 
-[@stdlib/math/iter/ops/multiply]: https://github.com/stdlib-js/math-iter-ops-multiply/tree/esm
+[@stdlib/math/iter/ops/multiply]: https://github.com/stdlib-js/math-iter-ops-multiply
 
-[@stdlib/math/iter/ops/subtract]: https://github.com/stdlib-js/math-iter-ops-subtract/tree/esm
+[@stdlib/math/iter/ops/subtract]: https://github.com/stdlib-js/math-iter-ops-subtract
 
 <!-- </toc-links> -->
 
