@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterAdd, iterDivide, iterMod, iterMultiply, iterSubtract } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@deno/mod.js';
+import { iterAdd, iterDivide, iterMod, iterMultiply, iterSubtract } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.3-deno/mod.js';
 ```
 
 #### ns
@@ -88,7 +88,7 @@ The namespace contains the following functions for creating iterator protocol-co
 
 ```javascript
 import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops@v0.2.3-deno/mod.js';
 
 // Demonstrate operations with two iterators:
 var arr1 = [ 2.0, 3.0 ];
